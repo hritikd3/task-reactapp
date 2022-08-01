@@ -1,10 +1,6 @@
 <<<<<<< HEAD
 import { useState } from "react";
 import { Link } from "react-router-dom";
-=======
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
->>>>>>> 6c5903f3b711b406cf0b387e6d462305e51868d3
 
 export default function ContactUs() {
   const [submitted, setSubmitted] = useState(false);
@@ -19,15 +15,7 @@ export default function ContactUs() {
 
   if (submitted) {
     return (
-<<<<<<< HEAD
-      <div className="flex justify-center items-center min-h-screen flex-col">
-        <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We'll be in touch soon.</div>
 
-        <Link
-          to="/"
-          className="mt-4 text-white bg-blue-600 p-2 px-4 rounded-sm"
-=======
       <div className='flex justify-center items-center min-h-screen flex-col'>
         <div className='text-2xl'>Thank you!</div>
         <div className='text-md'>We'll be in touch soon.</div>
@@ -35,7 +23,7 @@ export default function ContactUs() {
         <Link
           to='/'
           className='mt-4 text-white bg-blue-600 p-2 px-4 rounded-sm'
->>>>>>> 6c5903f3b711b406cf0b387e6d462305e51868d3
+
         >
           Go Home
         </Link>
@@ -46,11 +34,10 @@ export default function ContactUs() {
   return (
     <>
       <form onSubmit={handleSubmit}>
-<<<<<<< HEAD
+
         <div className="py-4 lg:py-8  relative">
-=======
+
         <div className='py-4 lg:py-8  relative'>
->>>>>>> 6c5903f3b711b406cf0b387e6d462305e51868d3
           <img
             src='https://i.postimg.cc/wMCgWDgm/Back-Image.png'
             className='h-2/5 lg:h-full w-full lg:w-1/2 absolute inset-0 object-cover object-center xl:block hidden'
@@ -134,17 +121,17 @@ export default function ContactUs() {
                         defaultValue={''}
                       />
                     </div>
-<<<<<<< HEAD
+
                     <div className="py-5">
                       <button
                         type="submit"
                         className="py-3 md:py-5 px-5 md:px-10 bg-gray-900 text-white hover:opacity-90 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold"
-=======
+
                     <div className='py-5'>
                       <button
                         type='submit'
                         className='py-3 md:py-5 px-5 md:px-10 bg-gray-900 text-white hover:opacity-90 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold'
->>>>>>> 6c5903f3b711b406cf0b387e6d462305e51868d3
+
                       >
                         Send
                       </button>
