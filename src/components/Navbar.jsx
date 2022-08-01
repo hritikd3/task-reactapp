@@ -14,14 +14,11 @@ const Navbar = () => {
       <div className='container mx-auto flex justify-between items-center'>
         <div className='flex space-x-4 items-center'>
           <div className='logo'>Logo</div>
-          <Link to='/blogs/add' className='text-blue-600'>
-            Add blog
-          </Link>
-          <Link to='/blogs/contactform' className='text-blue-600'>
-          Contact Us
-          </Link>
         </div>
-        <nav className='flex space-x-2'>
+        <nav className='flex items-center space-x-2'>
+          <Link to='/contact' className='text-blue-600 mr-2'>
+            Contact Us
+          </Link>
           {user ? (
             <button
               className='border rounded-md border-blue-600 bg-blue-600 text-white p-2 px-4'
@@ -32,13 +29,13 @@ const Navbar = () => {
           ) : (
             <>
               <Link
-                to='login'
+                to='/login'
                 className='border rounded-md border-blue-600 bg-blue-600 text-white p-2 px-4'
               >
                 Login
               </Link>
               <Link
-                to='signup'
+                to='/signup'
                 className='border rounded-md border-blue-600 bg-white text-blue-600 p-2 px-4'
               >
                 Signup
