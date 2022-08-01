@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ContactUs() {
   const [submitted, setSubmitted] = useState(false);
@@ -14,7 +14,6 @@ export default function ContactUs() {
 
   if (submitted) {
     return (
-
       <div className='flex justify-center items-center min-h-screen flex-col'>
         <div className='text-2xl'>Thank you!</div>
         <div className='text-md'>We'll be in touch soon.</div>
@@ -22,7 +21,6 @@ export default function ContactUs() {
         <Link
           to='/'
           className='mt-4 text-white bg-blue-600 p-2 px-4 rounded-sm'
-
         >
           Go Home
         </Link>
@@ -33,9 +31,6 @@ export default function ContactUs() {
   return (
     <>
       <form onSubmit={handleSubmit}>
-
-        <div className="py-4 lg:py-8  relative">
-
         <div className='py-4 lg:py-8  relative'>
           <img
             src='https://i.postimg.cc/wMCgWDgm/Back-Image.png'
@@ -120,17 +115,10 @@ export default function ContactUs() {
                         defaultValue={''}
                       />
                     </div>
-
-                    <div className="py-5">
-                      <button
-                        type="submit"
-                        className="py-3 md:py-5 px-5 md:px-10 bg-gray-900 text-white hover:opacity-90 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold"
-
                     <div className='py-5'>
                       <button
                         type='submit'
                         className='py-3 md:py-5 px-5 md:px-10 bg-gray-900 text-white hover:opacity-90 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold'
-
                       >
                         Send
                       </button>
