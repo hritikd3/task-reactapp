@@ -44,7 +44,7 @@ export default function ContactUs() {
                     </h1>
                     <div className="w-full md:w-10/12 mt-3">
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">
-                        A practical blog for impractical people.
+                        A practical blog for impractical people
                       </h2>
 
                       <div className="mt-4 md:mt-8">
